@@ -21,7 +21,7 @@ App Android para el robot TEMI que permite **crear un dataset de segmentación d
 ```
 
 - **App:** Kotlin, Jetpack Compose (Material 3), CameraX 1.3.4, OkHttp 4.12.0 y SDK de TEMI 1.138.0. `minSdk` 24.
-- **Servidor:** FastAPI + Uvicorn con el modelo SAM 2.1 Hiera Tiny. Repositorio: <https://github.com/Pixel4Design/SAM2Server>
+- **Servidor:** FastAPI + Uvicorn con el modelo SAM 2.1 Hiera Tiny.
 
 ## Estructura del proyecto
 
@@ -138,3 +138,5 @@ Contrato que usa la app (según `SegmentationApi.kt`):
 ## Autoría y licencia
 
 *Pendiente de completar.*
+
+Basado en el modelo SAM 2, disponible en: <https://github.com/facebookresearch/sam2>
